@@ -52,8 +52,9 @@ Using project "default
 ~ user(ocu:rastaman)(ocp:default)$ oc project someproject
 Now using project "someproject" on server "https://api.ocp4.example.com:6443".
 
-~ user(ocu:rastaman)(ocp:someproject$
+~ user(ocu:rastaman)(ocp:someproject)$
 ```
+>>NOTE: ocu = OCP User , ocp = OCP Project/Namespace name
 
 
 
