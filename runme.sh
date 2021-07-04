@@ -21,7 +21,7 @@ BLUE="\[\033[01;34m\]"
 YELLOW="\[\e[1;33m\]"
 GREEN="\[\e[1;32m\]"
 
-export PS1="${BLUE}\W ${GREEN}\u${YELLOW}\$(__oc_user)${GREEN}\$(__oc_ps1)${NORMAL} \$ "
+export PS1="\${BLUE}\W \${GREEN}\u\${YELLOW}\$(__oc_user)\${GREEN}\$(__oc_ps1)\${NORMAL} \$ "
 source ~/.oc-prompt.sh
 #### OCP END ####
 EOF
