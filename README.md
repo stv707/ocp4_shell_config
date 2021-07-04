@@ -49,10 +49,10 @@ You have access to 63 projects, the list has been suppressed. You can list all p
 
 Using project "default
 
-~ steve(ocu:rastaman)(ocp:default)$ oc project someproject
+~ user(ocu:rastaman)(ocp:default)$ oc project someproject
 Now using project "someproject" on server "https://api.ocp4.example.com:6443".
 
-~ steve(ocu:rastaman)(ocp:someproject$
+~ user(ocu:rastaman)(ocp:someproject$
 ```
 
 
