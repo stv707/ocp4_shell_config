@@ -29,13 +29,13 @@ EOF
 
 ## Main 
 
-if -f ~/.oc_prompt.sh 
+if ! -f ~/.oc_prompt.sh 
 then 
 errorme 
 else 
-cp .oc_prompt.sh ~/
+cp ocp4_shell_config/.oc_prompt.sh  ~/.oc_prompt.sh
 
-grep OCP ~/.bashrc &> /dev/null 
+grep 'OCP' ~/.bashrc &> /dev/null 
     if [ $? -eq 0 ]
     then 
     add_bashrc >> ~/.bashrc
