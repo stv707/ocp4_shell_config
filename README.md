@@ -40,9 +40,9 @@ source ~/.oc-prompt.sh
 
 6. Preview ( after login )
 ```
-~ user(ocu:NOTLOGGEDIN)(ocp:NOTLOGGEDIN)$ 
+~ user(ocu:NULL)(ocp:NULL)$ 
 
-~ user(ocu:NOTLOGGEDIN)(ocp:NOTLOGGEDIN)$ oc login -u rastaman -p somepassword 
+~ user(ocu:NULL)(ocp:NULL)$ oc login -u rastaman -p somepassword 
 Login successful.
 
 You have access to 63 projects, the list has been suppressed. You can list all projects with 'oc projects'
