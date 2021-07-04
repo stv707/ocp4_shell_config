@@ -4,6 +4,8 @@
 
 > This is for instructor whom deliver DO28X trainings. 
 
+> Very useful when you need to administrate ocp4/3* from cli 
+
 * Steps:
 
 1. cd to your home dir 
@@ -58,5 +60,4 @@ Now using project "someproject" on server "https://api.ocp4.example.com:6443".
 ```
 >>NOTE: ocu = OCP User , ocp = OCP Project/Namespace name
 
-
-
+>>NOTE: Not tested on OCP3 , only tested and verified on OCP4
