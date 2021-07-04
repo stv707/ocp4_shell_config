@@ -31,3 +31,4 @@ __oc_user()
         else
         echo "(ocu:NOTLOGGEDIN)"
         fi
+}
