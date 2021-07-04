@@ -11,7 +11,7 @@ __oc_ps1()
         echo "(ocp:${CONTEXT})"
     fi
     else
-            echo "(ocp:NOTLOGGEDIN)"
+            echo "(ocp:NULL)"
     fi
 }
 
@@ -29,6 +29,6 @@ __oc_user()
         fi
 
         else
-        echo "(ocu:NOTLOGGEDIN)"
+        echo "(ocu:NULL)"
         fi
 }
