@@ -2,6 +2,8 @@
 ***
 > Make your life easier with setting shell prompt to show OCP user and project/ns 
 
+> This is for instructor whom deliver DO28X trainings. 
+
 * Steps:
 
 1. cd to your home dir 
@@ -47,7 +49,7 @@ Login successful.
 
 You have access to 63 projects, the list has been suppressed. You can list all projects with 'oc projects'
 
-Using project "default
+Using project "default"
 
 ~ user(ocu:rastaman)(ocp:default)$ oc project someproject
 Now using project "someproject" on server "https://api.ocp4.example.com:6443".
