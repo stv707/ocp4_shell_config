@@ -36,9 +36,9 @@ else
 grep 'OCP' ~/.bashrc &> /dev/null 
     if [ $? -eq 0 ]
     then 
+    errorme 
+    else 
     cp ocp4_shell_config/.oc-prompt.sh  ~/.oc-prompt.sh
     add_bashrc >> ~/.bashrc
-    else 
-    errorme 
     fi 
 fi 
